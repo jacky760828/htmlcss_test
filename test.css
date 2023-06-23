@@ -1,0 +1,136 @@
+.resume{
+    display: flex;
+    max-width: 950px;
+    border: solid 10px rgb(0, 0, 0);
+    padding: 40px;
+    position: relative;
+  }
+  body{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #C6F5F0;
+    color: rgba(0,0,0,1);
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-family: "微軟正黑體",sans-serif;
+  }
+  .left{
+    flex: 6
+  }
+  .right{
+    flex: 7
+  }
+
+  h2::after{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 8px;
+    background-color: #FF7168;
+    margin-left: 10px;
+  }
+  .listSkill{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .listSkill li{
+    width: 25%;
+    padding: 2px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .cycle{
+    width: 60px;
+    height: 60px;
+    background-color: #111;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(255, 113, 104,0.4);
+  }
+
+  .value{
+    height: 100%;
+    width: 60%;
+    background-color: #FF7168;
+  }
+  .value.p10{
+    width: 10%;
+  }
+    
+  .value.p20{
+    width: 20%;
+  }
+  .value.p30{
+    width: 30%;
+  }
+  .value.p40{
+    width: 40%;
+  }
+  .value.p50{
+    width: 50%;
+  }
+  .value.p60{
+    width: 60%;
+  }
+  .value.p70{
+    width: 70%;
+  }
+  .value.p80{
+    width: 80%;
+  }
+  .value.p90{
+    width: 90%;
+  }
+  
+  .value.p100{
+    width: 100%;
+  }
+  
+  .right{
+    padding-left: 50px;
+    padding-top: 150px;
+    
+  }
+
+  .decoration{
+    width: 300px;
+    height: 140px;
+    background: linear-gradient(135deg,#FF5F5F,#FFFFAE);
+    border-radius: 70px 0px 0px 70px;
+    position: absolute;
+    right: 0;
+    top: 50px;
+  }
+  .listExperience>li{
+    display: flex;
+    margin-bottom: 20px;
+     list-style: none;
+    
+  }
+  .listExperience>li:nth-child(1) ul{
+    border-color: #FF7168
+  }
+  .listExperience>li:nth-child(2) ul{
+    border-color: #FFA582
+  }
+  .listExperience>li:nth-child(3) ul{
+    border-color: #FFB087
+  }
+  .listExperience>li:nth-child(4) ul{
+    border-color: #FFDE9E
+  }
+  
+  .years ul{
+    padding-left: 10px;
+    margin-left: 2px;
+    border-left: solid 8px white;
+     list-style: none;
+  }
